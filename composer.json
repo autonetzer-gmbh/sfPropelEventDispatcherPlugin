@@ -1,0 +1,19 @@
+{
+    "name": "fpeters/sf-propel-event-dispatcher-plugin",
+    "description": "Integrates the Symfony2 EventDispatcher component in your Model classes with your symfony1.x project",
+    "keywords": ["symfony1", "propel", "behavior", "event dispatcher", "event"],
+    "license": "MIT",
+    "type": "symfony1-plugin",
+    "authors": [
+        {
+            "name": "Felix Peters",
+            "email": "info@wichteldesign.de"
+        }
+    ],
+    "require": {
+        "symfony/event-dispatcher": "~2.1",
+        "propel/propel1": "~1.5",
+        "composer/installers": "~1.0.0",
+        "fpeters/sf-dependency-injection-plugin" : "~1.0"
+    }
+}
