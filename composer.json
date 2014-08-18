@@ -14,6 +14,7 @@
         "symfony/event-dispatcher": "~2.1",
         "propel/propel1": "~1.5",
         "composer/installers": "~1.0.0",
-        "fpeters/sf-dependency-injection-plugin" : "~1.0"
+        "fpeters/sf-dependency-injection-plugin" : "~1.0",
+        "willdurand/propel-eventdispatcher-behavior": "~1.3"
     }
 }
