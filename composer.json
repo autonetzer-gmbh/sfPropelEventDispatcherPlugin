@@ -13,7 +13,13 @@
     "require": {
         "symfony/event-dispatcher": "~2.1",
         "composer/installers": "~1.0.0",
-        "willdurand/propel-eventdispatcher-behavior": "~1.3",
+        "willdurand/propel-eventdispatcher-behavior": "dev-master#f3dd5c79a524cc6e9898b311fb26564886f2383a",
         "fpeters/sf-dependency-injection-plugin": "dev-master"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/autonetzer-gmbh/EventDispatcherBehavior.git"
+        }
+    ]
 }
